@@ -42,8 +42,6 @@ function App() {
             <Route exact path='/catalogo' component={Catalog}></Route>
             <Route exact path='/private' component={authenticated ? SamplePage : Login}></Route>
         </Switch>
-
-
     </div>
   );
 }
